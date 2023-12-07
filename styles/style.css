@@ -1,0 +1,22 @@
+body {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    text-align: center;
+    font-size: 22px;
+    border: 8px solid #000;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+a.decor {
+    text-decoration: none;
+}
+
+.color {
+    color: rgb(173, 37, 37);
+    font-weight: bold;
+}
