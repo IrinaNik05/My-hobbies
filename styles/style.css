@@ -1,22 +1,76 @@
-body {
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-    text-align: center;
-    font-size: 22px;
-    border: 8px solid #000;
-    border-radius: 20px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+.wrapper {
+    padding: 0 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
 }
 
 h1 {
-    font-size: 48px;
-    font-style: italic;
-    text-transform: capitalize;
+    font-size: 5rem;
+    font-weight: 600;
 }
 
-a.decor {
-    text-decoration: none;
+p {
+    font-size: 2.4rem;
+    text-align: justify;
+    font-weight: 400;
 }
 
-.color {
-    color: rgb(173, 37, 37);
-    font-weight: bold;
+body {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    text-align: center;
+    font-family: 'Vollkorn', sans-serif;
+}
+
+header {
+    padding: 35px 0 35px;
+}
+
+main .photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+main .photo img {
+    width: 100%;
+}
+
+main .hobbies,
+.description {
+    padding: 30px 0 30px;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+main .video-links {
+    display: block;
+}
+
+main .video-links a:not(:last-child) {
+    margin-right: 20px;
+}
+
+footer .social-networks {
+    font-size: 40px;
+    padding-bottom: 30px;
+    display: block;
+}
+
+footer .social-networks a:not(:last-child) {
+    margin-right: 20px;
 }
